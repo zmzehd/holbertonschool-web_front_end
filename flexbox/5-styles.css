@@ -389,9 +389,6 @@ ul.row {
 /* Navbar
       ============================= */
 
-.navbar-menu {
-    float: right;
-}
 
 .nav {
     margin: 0;
@@ -438,6 +435,10 @@ ul.row {
 
 /* Header
       ============================= */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
 
 .header {
     padding: var(--header-padding);
@@ -446,16 +447,7 @@ ul.row {
     background: transparent;
 }
 
-.header-logo {
-    position: var(--header-logo-position);
-}
 
-.header-logo a {
-    display: var(--header-logo-link-display);
-    position: var(--header-logo-link-position);
-    top: var(--header-logo-link-top);
-    left: var(--header-logo-link-left);
-}
 
 /* Footer
       ============================= */
