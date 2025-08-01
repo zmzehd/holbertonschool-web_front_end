@@ -397,6 +397,10 @@ ul.row {
     margin: var(--nav-item-margin);
 }
 
+nav .nav-item+.nav-item {
+    margin: var(--nav-item-margin);
+}
+
 .nav {
     margin: 0;
     padding: 0;
