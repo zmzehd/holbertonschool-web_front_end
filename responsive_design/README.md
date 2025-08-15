@@ -1,1 +1,1 @@
-Responsive design project for Techium Digital Agency
+Responsive design project for Techium Digital Agency by Mahammad Mammadov
